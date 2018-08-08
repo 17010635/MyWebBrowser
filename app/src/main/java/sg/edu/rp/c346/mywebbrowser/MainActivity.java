@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         wvMyPage.getSettings().setBuiltInZoomControls(true);
         wvMyPage.getSettings().setJavaScriptEnabled(true);
 
+
         btnLoadURL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
